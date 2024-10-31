@@ -12,3 +12,6 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     preferIpAddress: true
+    metadataMap:
+      customKey1: customValue1
+      customKey2: customValue2
